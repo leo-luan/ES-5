@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Engenharia de Software - Aula05</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/night.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<p>
+						Universidade do Estado de Mato Grosso <br />
+						<em>Campus</em> Cáceres <br />
+						Faculdade de Ciências Exatas <br/>
+						Bacharelado em Ciência da Computação
+					</p>
+					<br />
+					<h3>Engenharia de Software I</h3>
+					<h4>Capítulo 2 - Processo de Software (Sommerville)</h4>
+					<br />
+					<p>
+						Leonardo Luan Martins da Silva <br />
+						21 de março de 2019
+					</p>
+				</section>
+
+				<section style="text-align: left;font-size: 90%">
+					<h3>Projeto</h3>
+
+					<section>
+						<h3>Definição</h3>
+						<q>Um projeto de software é uma descrição da estrutura do software a ser implementado, dos modelos e estru­turas de dados usados pelo sistema, das interfaces entre os componentes do sistema e, às vezes, dos algoritmos usados.</q>
+					</section>
+
+					<section>
+						<ul>
+							<li style="margin-bottom: 50px">O projeto tem algumas entradas:</li>
+							<ul>
+								<li style="margin-bottom: 50px">Informações da plataforma;</li>
+								<li style="margin-bottom: 50px">Especificação de requisitos;</li>
+								<li>Descrição de Dados.</li>
+							</ul>
+						</ul>
+					</section>
+
+					<section>
+						<ul>
+							<li style="margin-bottom: 50px">O projeto tem algumas atividades:</li>
+							<ul>
+								<li style="margin-bottom: 50px">Projeto Arquitetural: identifica a estrutura;</li>
+								<li style="margin-bottom: 50px">Projeto de Interface: identifica a comunicação;</li>
+								<li style="margin-bottom: 50px">Projeto de Componentes: projeto o funcionamento de cada componente;</li>
+								<li>Projeto de Banco de Dados: projeta e estrutura as estruturas de dados.</li>
+							</ul>
+						</ul>
+					</section>
+
+					<section>
+						<ul>
+							<li style="margin-bottom: 50px">O projeto tem algumas saídas:</li>
+							<ul>
+								<li style="margin-bottom: 50px">Arquitetura do Sistema;</li>
+								<li style="margin-bottom: 50px">Especificação de Banco de Dados;</li>
+								<li style="margin-bottom: 50px">Especificação de Interface;</li>
+								<li>Especificação de componentes.</li>
+							</ul>
+						</ul>
+					</section>
+				</section>
+
+				<section style="text-align: left;font-size: 90%">
+					<h3>Validação de Software</h3>
+
+					<section>
+						<h3>Definição</h3>
+						<q>Também conhecida como verificação e validação (VeV) que um software se adequa a suas especificações ao mesmo tempo que satisfaz as especificações do cliente do sistema.</q>
+					</section>
+
+					<section style="font-size: 90%">
+						<p>Com exceção de pequenos programas, sistemas não devem ser testados como uma unidade única e monolíti­ca.</p>
+					</section>
+
+					<section style="font-size: 90%">
+						<ul>
+							<li style="margin-bottom: 50px">Um processo de testes geralmente tem 3 estágios:</li>
+							<ul>
+								<li style="margin-bottom: 50px">Testes de desenvolvimento: Os componentes do sistema são testados pelas pessoas que o desenvolveram;</li>
+								<li style="margin-bottom: 50px">Testes de sistema: Componentes do sistema são integrados para criar um sistema completo;</li>
+								<li>Testes de aceitação: gio final do processo de testes, antes que o sistema seja aceito para uso opera­cional. O sistema é testado com dados fornecidos pelo cliente, e não com dados advindos de testes simulados.</li>
+							</ul>
+						</ul>
+					</section>
+				</section>
+
+				<section style="text-align: center; font-size: 90%">
+					<h3>Continuação na próxima aula...</h3>
+					<br />
+					<h4>Obrigado! Até às 11h00</h4>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				mouseWheel: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+			Reveal.configure({ slideNumber: 'c/t' });
+		</script>
+	</body>
+</html>
